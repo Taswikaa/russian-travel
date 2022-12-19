@@ -32,14 +32,13 @@
 @media screen and (min-width: 300px) {
   .cover {
     max-width: 100vw;
-    /* max-width: 768px; */
     min-height: calc(100vw * .625);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .cover {
-    max-width: 100vw;
     min-height: 740px;
+    max-width: 1184px;
   }
 }

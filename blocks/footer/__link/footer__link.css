@@ -3,6 +3,11 @@
   font-weight: 400;
   color: #fff;
   text-decoration: none;
+  transition: opacity .7s;
+}
+
+.footer__link:hover {
+  opacity: .8;
 }
 
 @media screen and (min-width: 300px) {

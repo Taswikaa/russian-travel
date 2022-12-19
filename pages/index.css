@@ -3,9 +3,6 @@
 @import url(../vendor/fonts/inter/fonts.css);
 /* page */
 @import url(../blocks/page/page.css);
-/* контейнеры */
-/* @import url(../blocks/container/_size_l/container_size_l.css);
-@import url(../blocks/container/_size_s/container_size_s.css); */
 /* link */
 @import url(../blocks/link/link.css);
 /* header */
