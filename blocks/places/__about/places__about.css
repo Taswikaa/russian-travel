@@ -1,0 +1,35 @@
+.places__about {
+  display: flex;
+  width: 100%;
+}
+
+@media screen and (min-width: 300px) {
+  .places__about {
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .places__about {
+    flex-direction: row;
+    font-size: 16px;
+    line-height: 26px;
+    column-gap: 28px;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .places__about {
+    font-size: 18px;
+    line-height: 30px;
+    column-gap: 32px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .places__about {
+    column-gap: 40px;
+  }
+}

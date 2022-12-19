@@ -1,0 +1,29 @@
+.intro {
+  color: #fff;
+  font-family: 'inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 300px) {
+  .intro {
+    padding: 64px 0 0;
+    max-width: calc(100vw * .9);
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .intro {
+    padding: 88px 0 0;
+    max-width: calc(100vw * .9375);
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .intro {
+    max-width: calc(100vw * .9);
+    max-width: 1184px;
+  }
+}

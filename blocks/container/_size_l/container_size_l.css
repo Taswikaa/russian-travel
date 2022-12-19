@@ -1,0 +1,29 @@
+.container_size_l {
+  max-width: 1184px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .container_size_l {
+    max-width: 928px;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .container_size_l {
+    max-width: 928px;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container_size_l {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0;
+  }
+}

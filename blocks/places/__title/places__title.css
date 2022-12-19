@@ -1,0 +1,36 @@
+.places__title {
+  font-weight: 900;
+}
+
+@media screen and (min-width: 300px) {
+  .places__title {
+    max-width: calc(100vw * .9);
+    margin: 0 0 32px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .places__title {
+    width: calc(100vw * .45);
+    margin: 0 0 48px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .places__title {
+    width: calc(100vw * .43);
+    font-size: 72px;
+    line-height: 76px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .places__title {
+    max-width: calc(100vw * .36);
+    max-width: 460px;
+  }
+}
