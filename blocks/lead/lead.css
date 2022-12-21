@@ -20,7 +20,7 @@
 
 @media screen and (min-width: 770px) {
   .lead {
-    max-width: calc(100vw * .9);
+    max-width: calc(100vw * .90625);
   }
 }
 

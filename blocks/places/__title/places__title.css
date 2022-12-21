@@ -14,15 +14,18 @@
 @media screen and (min-width: 576px) {
   .places__title {
     width: calc(100vw * .45);
-    margin: 0 0 48px;
+    margin: 0;
     font-size: 42px;
     line-height: 46px;
+    max-width: 330px;
   }
 }
 
 @media screen and (min-width: 770px) {
   .places__title {
+    margin: 0;
     width: calc(100vw * .43);
+    max-width: 440px;
     font-size: 72px;
     line-height: 76px;
   }
@@ -30,7 +33,7 @@
 
 @media screen and (min-width: 1200px) {
   .places__title {
-    max-width: calc(100vw * .36);
+    margin: 0;
     max-width: 460px;
   }
 }

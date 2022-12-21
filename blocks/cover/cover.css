@@ -1,32 +1,5 @@
 .cover {
-  background-image: url(../../images/cover-background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  color: #fff;
-  font-family: 'inter', Arial, Helvetica, sans-serif;
-  position: relative;
-  z-index: 0;
   margin: 0 auto;
-  max-width: 1184px;
-}
-
-.cover::before {
-  content: '';
-	display: block;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color:rgba(0, 0, 0, .3);
-  transition: background-color .7s;
-}
-
-.cover:hover::before {
-  background-color:rgba(0, 0, 0, .8);
 }
 
 @media screen and (min-width: 300px) {

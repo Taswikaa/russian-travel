@@ -23,7 +23,24 @@
 
 @media screen and (min-width: 770px) {
   .intro {
-    max-width: calc(100vw * .9);
-    max-width: 1184px;
+    padding: 92px 0 0 0;
+    max-width: 690px;
+    margin: 0 0 0 48px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .intro {
+    padding: 92px 0 0 0;
+    max-width: 690px;
+    margin: 0 0 0 148px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .intro {
+    padding: 92px 0 0 0;
+    max-width: 690px;
+    margin: 0 auto;
   }
 }

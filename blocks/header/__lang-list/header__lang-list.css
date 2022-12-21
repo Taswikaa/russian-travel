@@ -1,4 +1,6 @@
 .header__lang-list {
+  font-family: 'inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
   list-style: none;
   padding: 0;
   margin: 0;
