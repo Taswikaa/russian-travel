@@ -1,6 +1,5 @@
 .places__core {
   display: flex;
-  align-items: flex-end;
 }
 
 @media screen and (min-width: 300px) {
@@ -13,6 +12,7 @@
   .places__core {
     flex-direction: row;
     column-gap: 38px;
+    align-items: flex-end;
   }
 }
 
