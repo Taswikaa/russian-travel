@@ -3,13 +3,13 @@
   justify-content: space-between;
   align-items: flex-end;
   margin: 0 auto;
-  padding: 28px 0 0;
 }
 
 @media screen and (min-width: 300px) {
   .header {
     max-width: calc(100vw * .9);
     max-height: 42px;
+    padding: 16px 0 0;
   }
 }
 
@@ -17,6 +17,7 @@
   .header {
     max-width: calc(100vw * .9375);
     max-height: 52px;
+    padding: 28px 0 0;
   }
 }
 
