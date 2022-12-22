@@ -1,6 +1,7 @@
 .places__link {
   color: #fff;
   line-height: 22px;
+  font-size: 18px;
   display: block;
   margin: 12px 0 0;
   transition: opacity .7s;
